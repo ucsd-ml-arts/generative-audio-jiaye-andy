@@ -46,7 +46,13 @@ Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
 
 
 ## Technical Notes
-In the Music Transformer, we are required to upload two midi file. The first midi file will contribute to the priming sequence of the resulted music, While the second midi file will contribute to the melody of the result music. It will choose the highest pitch note as the meldoy. Although this is not accurate, we are still going to upload our original midi file into both section. Because we want to stick on our original guitar performence. 
+In the Music Transformer, we are required to upload two midi file. The first midi file will contribute to the priming sequence of the resulted music, While the second midi file will contribute to the melody of the result music.
+
+![Image of melody](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/trans_melody.PNG)
+
+![Image of primer](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/trans_primer.PNG)
+
+It will choose the highest pitch note as the meldoy. Although this is not accurate, we are still going to upload our original midi file into both section. Because we want to stick on our original guitar performence. 
 
 
 
