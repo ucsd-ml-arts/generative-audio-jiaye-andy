@@ -9,12 +9,15 @@ Fingerstyle guitar is the technique of playing the guitar by plucking the string
 For many musicians, guitar is like a small band. By hitting the guitar’s body, guitarists can mimic the sound of drum. By hitting the string in different angle, guitarists can also mimic the sound of different percussion instruments. Guitar fingerstyle develop this feature to a greater level. Hence, It will be interesting to figure out by combining machine learning and fingerstyle together, what kind of music are we going to produce. 
 
 This project will using guitar pro 5 software/ github code to convert guitar tabs in to midi file. Then the midi file will be sent into Music Transformer to generate new music sequence. After this, the two new formed midi file will be sent into Gansynth to replace guitar timbre to other timbre. 
+I will also feed the original midi file into Gansynth as a reference.
 
 ![Image of guitar](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/revolution.PNG)
 ![Image of score](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/note.PNG)
 
 
 In this project, I am going to Conny Berghäll - Revolution as an example. 
+
+
 
 
 
@@ -41,6 +44,12 @@ GANSynth: https://magenta.tensorflow.org/gansynth
 ## Results
 
 Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
+
+Generated wav file: 
+
+1- generated_original.wav (produce by feeding original guitar midi file in to Gansynth
+
+2-
 
 
 
