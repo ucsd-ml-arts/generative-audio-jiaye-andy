@@ -10,8 +10,8 @@ For many musicians, guitar is like a small band. By hitting the guitar’s body,
 
 This project will using guitar pro 5 software/ github code to convert guitar tabs in to midi file. Then the midi file will be sent into Music Transformer to generate new music sequence. After this, the two new formed midi file will be sent into Gansynth to replace guitar timbre to other timbre. 
 
-![Image of confusi](https://github.com/ucsd-ml-arts/generative-text-andy/blob/master/analect.jpg)
-![Image of prince](https://github.com/ucsd-ml-arts/generative-text-andy/blob/master/prince.jpg)
+![Image of guitar](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/revolution.PNG)
+![Image of score](https://github.com/ucsd-ml-arts/generative-audio-jiaye-andy/blob/master/note.PNG)
 
 
 In this project, I am going to Conny Berghäll - Revolution as an example. 
@@ -21,8 +21,9 @@ In this project, I am going to Conny Berghäll - Revolution as an example.
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+original guitar tab file: revolution.gpt5
+orginal midi file: revolution.mid
+Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
 
 ## Code
 
@@ -35,11 +36,9 @@ GANSynth: https://magenta.tensorflow.org/gansynth
 
 ## Results
 
+Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- `.wav` files or `.mp4`
-- `.midi` files
-- musical scores
-- ... some other form
+
 
 ## Technical Notes
 In the Music Transformer, we are required to upload two midi file. The first midi file will contribute to the priming sequence of the resulted music, While the second midi file will contribute to the melody of the result music. It will choose the highest pitch note as the meldoy. Although this is not accurate, we are still going to upload our original midi file into both section. Because we want to stick on our original guitar performence. 
