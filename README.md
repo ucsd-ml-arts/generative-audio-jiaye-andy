@@ -47,9 +47,9 @@ Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
 
 Generated wav file: 
 
-1- generated_original.wav (produce by feeding original guitar midi file in to Gansynth
+1- generated_original.wav (produced by feeding original guitar midi file in to Gansynth)
 
-2-
+2-generated_accompaniment.wav(produced by feeding transformed guitar midi file(machine generated accompaniment) in to Gansynth
 
 
 
