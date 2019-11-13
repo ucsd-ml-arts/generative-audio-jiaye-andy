@@ -21,9 +21,13 @@ In this project, I am going to Conny Berghäll - Revolution as an example.
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
+
 original guitar tab file: revolution.gpt5
+
 orginal midi file: revolution.mid
+
 Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
+
 
 ## Code
 
@@ -37,7 +41,8 @@ GANSynth: https://magenta.tensorflow.org/gansynth
 ## Results
 
 Transformed midi file: 1-primer+continuation.mid 2-accompaniment.mid
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
+
+
 
 
 ## Technical Notes
@@ -49,14 +54,14 @@ In the Music Transformer, we are required to upload two midi file. The first mid
 
 References to any papers, techniques, repositories you used:
 
-- Papers
-- Repositories
-- Blog posts
+
 Music Transformer: https://magenta.tensorflow.org/piano-transformer
 • colab: https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb
 
 GANSynth: https://magenta.tensorflow.org/gansynth
 • colab: https://colab.research.google.com/notebooks/magenta/gansynth/gansynth_demo.ipynb
 
+
 https://en.wikipedia.org/wiki/Fingerstyle_guitar
+
 https://www.youtube.com/watch?v=9r9ghRna95I
