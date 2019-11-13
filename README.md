@@ -8,7 +8,11 @@ Fingerstyle guitar is the technique of playing the guitar by plucking the string
 
 For many musicians, guitar is like a small band. By hitting the guitar’s body, guitarists can mimic the sound of drum. By hitting the string in different angle, guitarists can also mimic the sound of different percussion instruments. Guitar fingerstyle develop this feature to a greater level. Hence, It will be interesting to figure out by combining machine learning and fingerstyle together, what kind of music are we going to produce. 
 
-This project will using guitar pro 5 software/ github code to convert guitar tabs in to midi file. Then the midi file will be sent into Music Transformer to generate new music sequence. After this, the new formed midi file will be sent into Gansynth to replace guitar timbre to other timbre. 
+This project will using guitar pro 5 software/ github code to convert guitar tabs in to midi file. Then the midi file will be sent into Music Transformer to generate new music sequence. After this, the two new formed midi file will be sent into Gansynth to replace guitar timbre to other timbre. 
+
+![Image of confusi](https://github.com/ucsd-ml-arts/generative-text-andy/blob/master/analect.jpg)
+![Image of prince](https://github.com/ucsd-ml-arts/generative-text-andy/blob/master/prince.jpg)
+
 
 In this project, I am going to Conny Berghäll - Revolution as an example. 
 
@@ -22,9 +26,12 @@ Briefly describe the files that are included with your repository:
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+Music Transformer: https://magenta.tensorflow.org/piano-transformer
+• colab: https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb
+
+GANSynth: https://magenta.tensorflow.org/gansynth
+• colab: https://colab.research.google.com/notebooks/magenta/gansynth/gansynth_demo.ipynb
+
 
 ## Results
 
@@ -35,10 +42,9 @@ Documentation of your results in an appropriate format, both links to files and 
 - ... some other form
 
 ## Technical Notes
+In the Music Transformer, we are required to upload two midi file. The first midi file will contribute to the priming sequence of the resulted music, While the second midi file will contribute to the melody of the result music. It will choose the highest pitch note as the meldoy. Although this is not accurate, we are still going to upload our original midi file into both section. Because we want to stick on our original guitar performence. 
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+
 
 ## Reference
 
